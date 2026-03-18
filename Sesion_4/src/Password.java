@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class ComplejidadContrasena {
+public class Password {
     public static void main(String[] args) {
         boolean tiene_numero=false;
         boolean tiene_letra=false;

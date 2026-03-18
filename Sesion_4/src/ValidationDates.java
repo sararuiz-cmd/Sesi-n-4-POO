@@ -1,7 +1,6 @@
 import javax.swing.*;
-import java.util.Scanner;
 
-public class ValidadorFechas {
+public class ValidationDates {
     public static void main(String[] args) {
         while (true) {
             int dia=Integer.parseInt(JOptionPane.showInputDialog("Ingresa un dia: "));
