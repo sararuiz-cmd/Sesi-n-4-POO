@@ -5,9 +5,8 @@ public class Supermarket {
     public static void main(String[] args) {
 
         Scanner leer = new Scanner(System.in);
-
-        System.out.println("Ingrese su tipo de membresia (bronce, plata, oro): ");
-        String membresia = leer.nextLine().toLowerCase();
+            System.out.println("Ingrese su tipo de membresia (bronce, plata, oro): ");
+            String membresia = leer.nextLine().toLowerCase();
 
         System.out.println("Ingrese el valor de su compra: ");
         double compra = leer.nextDouble();
