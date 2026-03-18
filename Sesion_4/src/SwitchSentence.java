@@ -1,6 +1,5 @@
-import javax.swing.*;
 import java.util.Scanner;
-public class ejercicio3 {
+public class SwitchSentence {
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
 

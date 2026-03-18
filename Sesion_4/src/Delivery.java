@@ -1,12 +1,10 @@
 import javax.swing.*;
 
-public class ejercicio1 {
+public class Delivery {
     public static void main(String[] args) {
-        String pesostr = JOptionPane.showInputDialog(" dime cual es el peso del paquete ( en kg ). ");
-        String distanciastr = JOptionPane.showInputDialog(" dime cual es la distancia del paquete ( en metros). ");
         String fragil = JOptionPane.showInputDialog("¿El producto es frágil? (si/no)");
-        double peso = Double.parseDouble(pesostr);
-        double distancia = Double.parseDouble(distanciastr);
+        double peso = Double.parseDouble(JOptionPane.showInputDialog(" dime cual es el peso del paquete ( en kg ). "));
+        double distancia = Double.parseDouble(JOptionPane.showInputDialog(" dime cual es la distancia del paquete ( en metros). "));
         if (peso > 50 && distancia > 100) {
             JOptionPane.showMessageDialog(null, "Transporte pesado");
         }
